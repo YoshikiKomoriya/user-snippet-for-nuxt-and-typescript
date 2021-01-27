@@ -1,0 +1,30 @@
+{
+	"Template with Nuxt.js + TypeScript": {
+		"prefix": ["vue", "<template>"],
+		"body": [
+			"<template></template>",
+			"",
+			"<script lang=\"ts\">",
+			"import Vue from \"vue\";",
+			"",
+			"export default Vue.extend({",
+			"\tcomponents: {},",
+			"\tdirectives: {},",
+			"\tfilters: {},",
+			"\tmixins: [],",
+			"\tdata: () => ({}),",
+			"\tmounted() {},",
+			"\tbeforeDestroy() {},",
+			"\tprops: {},",
+			"\tcomputed: {},",
+			"\tmethods: {},",
+			"\twatch: {},",
+			"});",
+			"</script>",
+			"",
+			"<style module lang=\"scss\"></style>",
+			""
+		],
+		"description": "Nuxt.js + TypeScript向けテンプレート"
+	}
+}
